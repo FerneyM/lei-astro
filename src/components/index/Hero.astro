@@ -1,0 +1,76 @@
+---
+import '../../css/hero.css';
+---
+<script src="https://kit.fontawesome.com/d181d1679b.js" crossorigin="anonymous"></script>
+<div class="paragraph paragraph--type--hero paragraph--view-mode--default efl-hero">
+    <div
+      class="field field--name-field-media field--type-entity-reference field--label-hidden field__item">
+      <article class="media media--type-video media--view-mode-hero">
+        <div
+          class="field field--name-field-media-video-file field--type-file field--label-visually_hidden">
+          <div class="field__label visually-hidden">
+            Video file
+          </div>
+          <div class="field__item">
+            <video autoplay="autoplay" loop="loop" muted="muted" width="1400" height="480">
+              <source
+                src="/videos/hero-vid.mp4"
+                type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <div class="info">
+      <div class="content">
+        <div class="hero-info">
+          <div
+            class="clearfix text-formatted field field--name-field-formatted-headline field--type-text field--label-hidden field__item">
+            Growing Businesses.<br />
+            Transforming Supply Chains.
+          </div>
+
+          <div
+            class="clearfix text-formatted field field--name-field-description field--type-text-long field--label-hidden field__item">
+            <p>
+              EFL Global creates innovative supply chain
+              solutions to simplify freight forwarding for
+              businesses.
+            </p>
+          </div>
+
+          <div
+            class="field field--name-field-links field--type-link field--label-hidden field__items">
+            <div class="field__item">
+              <a href="https://efl.global/get-quote">Get a Quote</a>
+            </div>
+          </div>
+        </div>
+        <div class="track-trace-form">
+          <div class="block block-efl-track-trace block-track-trace-form">
+            <div class="clear-both">
+              <h1>Track a Shipment</h1>
+              <form action="https://efl.global/track-trace" id="track-trace">
+                <div>
+                  <label for="track-number">Enter order, shipment/booking, HAWB,
+                    HBL, or container number</label>
+                  <div class="form-input">
+                    <input type="search" id="track-number" name="track-number" value="" required />
+                    <!-- <input type="reset" value="X" alt="Clear the search form"
+                      class="reset-button fa-light fa-circle-xmark" /> -->
+                    <button class="search">
+                      <span>Search</span>
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <span class="login-cta">For more detailed tracking, please
+              <a href="https://efl.connectcast.io/" target="_blank">sign-in</a>
+              to EFL Customer Portal.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

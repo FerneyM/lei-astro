@@ -1,0 +1,283 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background: rgba(232, 246, 253, .33);
+    margin-top: 3.5rem
+}
+
+@media(min-width:768px) {
+    footer {
+        margin-top: 4.5rem
+    }
+}
+
+@media(min-width:1280px) {
+    footer {
+        margin-top: 7.5rem
+    }
+}
+
+@media(min-width:768px) {
+    footer .divi {
+        width: 100%;
+        border-bottom: 0.0625rem solid #e8f6fd
+    }
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    padding: 0 1rem;
+    margin-top: 3rem
+}
+
+@media(min-width:768px) {
+    .content {
+        padding: 1rem 1.5rem 0
+    }
+}
+
+@media(min-width:1280px) {
+    .content {
+        padding: 0 3.5rem 0;
+        max-width: 94rem;
+        margin-top: 8rem
+    }
+}
+
+footer .content {
+    margin-top: 0
+}
+
+@media(min-width:1280px) {
+    footer .content {
+        margin-top: 4.5rem
+    }
+}
+
+footer .region-footer {
+    display: none;
+    position: relative;
+    padding-bottom: 8.5rem
+}
+
+@media(min-width:768px) {
+    footer .region-footer {
+        display: block
+    }
+}
+
+footer .region-footer nav ul {
+    display: flex;
+    position: relative;
+    margin-left: 0
+}
+
+footer .region-footer nav ul li {
+    font-size: 1.125rem;
+    font-weight: 500;
+    list-style: none
+}
+
+footer .region-footer nav ul li:not(:first-child) {
+    margin: 0 0 0 6rem
+}
+
+footer .region-footer nav ul li.menu-item--expanded {
+    position: relative
+}
+
+@media(min-width:1536px) {
+    footer .region-footer nav ul li.menu-item--expanded {
+        height: 280px
+    }
+}
+
+footer .region-footer nav ul li .menu {
+    display: flex;
+    flex-direction: column
+}
+
+footer .region-footer nav ul li .menu li {
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-top: 1.75rem
+}
+
+footer .region-footer nav ul li .menu li:not(:first-child) {
+    margin: 1.75rem 0 0 0
+}
+
+@media(min-width:1536px) {
+    footer .region-footer nav ul li:last-child ul {
+        flex-wrap: wrap;
+        width: 272%;
+        height: 280px
+    }
+}
+
+footer .footer-bottom {
+    position: relative;
+    width: 100%;
+    background: #fff
+}
+
+footer .footer-bottom .content {
+    margin-top: 0;
+    padding: 0 1rem
+}
+
+@media(min-width:768px) {
+    footer .footer-bottom .content {
+        padding: 0 1.5rem
+    }
+}
+
+@media(min-width:1280px) {
+    footer .footer-bottom .content {
+        margin-top: 0;
+        max-width: inherit
+    }
+}
+
+footer .footer-bottom .region-footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    background: #fff;
+    border-top: 0.0625rem solid #e8f6fd;
+    width: 100%;
+    padding: 2.5rem 0
+}
+
+@media(min-width:768px) {
+    footer .footer-bottom .region-footer-bottom {
+        flex-direction: row;
+        align-items: center;
+        padding: 2rem 0
+    }
+}
+
+footer .footer-bottom .region-footer-bottom .block-system-branding-block {
+    position: relative;
+    margin-bottom: 2rem;
+    width: 4.5rem;
+    min-width: 4.5rem
+}
+
+@media(min-width:768px) {
+    footer .footer-bottom .region-footer-bottom .block-system-branding-block {
+        width: 2.25rem;
+        min-width: 2.25rem;
+        margin-bottom: 0
+    }
+}
+
+footer .footer-bottom .region-footer-bottom .block-system-branding-block .site-logo {
+    min-width: 4.5rem;
+    height: auto
+}
+
+@media(min-width:768px) {
+    footer .footer-bottom .region-footer-bottom .block-system-branding-block .site-logo {
+        min-width: 2.25rem
+    }
+}
+
+footer .footer-bottom .region-footer-bottom .block-system-branding-block .site-logo img {
+    width: 100%;
+    height: auto
+}
+
+footer .footer-bottom .region-footer-bottom .field--name-field-copyright {
+    position: relative;
+    font-size: 1rem;
+    font-weight: 500;
+    white-space: nowrap
+}
+
+@media(min-width:768px) {
+    footer .footer-bottom .region-footer-bottom .field--name-field-copyright {
+        font-size: 0.78125rem;
+        padding-left: 1.5rem
+    }
+}
+
+footer .footer-bottom .region-footer-bottom .menu--legal-menu {
+    position: relative;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-top: 1rem
+}
+
+@media(min-width:768px) {
+    footer .footer-bottom .region-footer-bottom .menu--legal-menu {
+        font-size: 0.875rem;
+        padding-left: 1.5rem;
+        padding-top: 0
+    }
+}
+
+footer .footer-bottom .region-footer-bottom .menu--legal-menu ul {
+    display: flex;
+    margin-left: 0
+}
+
+footer .footer-bottom .region-footer-bottom .menu--legal-menu ul li {
+    white-space: nowrap;
+    padding-top: 0
+}
+
+footer .footer-bottom .region-footer-bottom .menu--legal-menu ul li a {
+    display: flex;
+    text-decoration: underline
+}
+
+footer .footer-bottom .region-footer-bottom .menu--legal-menu ul li:not(:first-child) {
+    margin-left: 1rem
+}
+
+footer .footer-bottom .region-footer-bottom #block-simplesitesettingsblock-3 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 2.5rem
+}
+
+@media(min-width:768px) {
+    footer .footer-bottom .region-footer-bottom #block-simplesitesettingsblock-3 {
+        justify-content: flex-end;
+        padding-top: 0
+    }
+}
+
+footer .footer-bottom .region-footer-bottom #block-simplesitesettingsblock-3 .social-link-field {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%
+}
+
+@media(min-width:768px) {
+    footer .footer-bottom .region-footer-bottom #block-simplesitesettingsblock-3 .social-link-field {
+        width: auto;
+        justify-content: flex-start
+    }
+}
+
+footer .footer-bottom .region-footer-bottom #block-simplesitesettingsblock-3 .social-link-field li {
+    font-size: 1.125rem
+}
+
+@media(min-width:768px) {
+    footer .footer-bottom .region-footer-bottom #block-simplesitesettingsblock-3 .social-link-field li {
+        font-size: 1rem
+    }
+}
+
+footer .footer-bottom .region-footer-bottom #block-simplesitesettingsblock-3 .social-link-field li:not(:first-child) {
+    margin-left: 1.5rem
+}

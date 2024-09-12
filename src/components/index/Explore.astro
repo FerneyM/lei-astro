@@ -1,0 +1,52 @@
+---
+import "../../css/infocards.css";
+import ExploreItem from "./ExploreItem";
+
+const exploreData = [
+    {
+        title: "Explore Solutions",
+        description:
+            "View our transportation and digital logistics products across air, ocean, trucking, warehousing, and more.",
+        image: "/images/infocard_exploresolutions.png",
+    },
+    {
+        title: "Get a Quote",
+        description:
+            "Speak to one of our logistics professionals to find a solution that works for you and your business.",
+        image: "/images/infocard_getquote.png",
+    },
+    {
+        title: "Book Your Shipment",
+        description:
+            "Book your customized order based on your supply chain needs.",
+        image: "/images/infocard_bookorder.png",
+    },
+    {
+        title: "Track a Shipment",
+        description:
+            "Access real-time tracking updates and information throughout your shipment's journey.",
+        image: "/images/infocard_trackshipment.png",
+    },
+    {
+        title: "Join Our Team",
+        description:
+            "Learn more about our career opportunities in global supply chain management and logistics.",
+        image: "/images/infocard_careers.png",
+    },
+];
+---
+
+<div class="w-full xl:w-3/4 xl:mt-non2 mt-0 mx-auto sticky bg-white rounded-4lg shadow-2xl py-8 px-9">
+    <div class="flex block gap-4">
+        <div class="pb-8 text-titlexl font-bold">Explore EFL Global</div>
+    </div>
+    <div
+        class="flex gap-4 px-8"
+    >
+        {
+            exploreData.map((item) => {
+                return <ExploreItem data={item} />;
+            })
+        }
+    </div>
+</div>
