@@ -6,52 +6,55 @@ const insightData = [
     {
         image: "/images/youth_leadership2.jpg",
         title: "Sustainability",
-        subtitle: "Youth Leadership in Climate Action: Shaping a Sustainable Future",
-        description: "Last month it was International Youth Day, which highlights the significant role young people play in addressing one of the most pressing challenges of our time: climate change. With 16% of the..."  
+        subtitle:
+            "Youth Leadership in Climate Action: Shaping a Sustainable Future",
+        description:
+            "Last month it was International Youth Day, which highlights the significant role young people play in addressing one of the most pressing challenges of our time: climate change. With 16% of the...",
     },
     {
         image: "/images/world_water_day_w4b0d.png",
         title: "Sustainability",
-        subtitle: "Every Drop: World Water Day and Sustainable Water Management Solutions",
-        description: "World Water Day acts as an annual reminder of water’s importance and the urgent need for sustainable water management. With escalating global water challenges, it's crucial to..."
+        subtitle:
+            "Every Drop: World Water Day and Sustainable Water Management Solutions",
+        description:
+            "World Water Day acts as an annual reminder of water’s importance and the urgent need for sustainable water management. With escalating global water challenges, it's crucial to...",
     },
     {
         image: "/images/december_2023_gg6a04.jpg",
         title: "Sustainability",
         subtitle: " Global's Sustainability Accomplishments in 2023",
-        description: " As we approach 2024, the commitment to sustainability stands as an essential pillar for organizations worldwide. In 2023, EFL Global has  not only embraced this commitment, but has soared to new..."  
+        description:
+            " As we approach 2024, the commitment to sustainability stands as an essential pillar for organizations worldwide. In 2023, EFL Global has  not only embraced this commitment, but has soared to new...",
     },
     {
         image: "/images/december_20231676.png",
         title: "New Office",
-        subtitle: "Post Mortem: Reshaping Logistics in Europe and Across the Globe",
-        description: "Three years have passed since the United Kingdom officially left the European Union in January 2020, an event that sent ripples through the world of logistics and supply chain management. As we..."  
-    }
+        subtitle:
+            "Post Mortem: Reshaping Logistics in Europe and Across the Globe",
+        description:
+            "Three years have passed since the United Kingdom officially left the European Union in January 2020, an event that sent ripples through the world of logistics and supply chain management. As we...",
+    },
 ];
 ---
 
-<div  class="home_latest-resources py-10 px-12">
-    <div class="home_featured-title">
-        <div class=" content-center field field--name-field-headline field--type-string field--label-hidden field__item">
-            Insights
-        </div>
+<div class="w-full xl:w-3/4 mt-8 mx-auto bg-white py-9">
+        <div class="flex block gap-4 items-center pb-8">
+            <div>
+                <p class="text-titlexl font-bold">Insights</p>
+            </div>
 
-        <div class="field field--name-field-link field--type-link field--label-hidden field__item">
-            <a href="insights.html">View All</a>
-        </div>
-    </div>
-    <div class="field field--name-field-view field--type-viewsreference field--label-hidden field__item">
-        <div class="views-element-container">
-            <div class="view view-efl-content view-id-efl_content view-display-id-latest_resource_block js-view-dom-id-6a1f7e7cc00a22c7ab29104ed7748a254fc30f36bf531c71fbe536f2e401af86">
-                <div class="view-filters"></div>
-                <div class="view-content">
-                    {
-                        insightData.map((item) => {
-                            return <InsightItem data={item} />;
-                        })
-                    }
-                </div>
+            <div>
+                <a
+                    class="underline underline-offset-4 text-blue-300 font-bold"
+                    href="insights.html">View All</a
+                >
             </div>
         </div>
-    </div>
+        <div class="flex gap-7 grid-cols-4 grid pr-16">
+            {
+                insightData.map((item) => {
+                    return <InsightItem data={item} />;
+                })
+            }
+        </div>
 </div>
