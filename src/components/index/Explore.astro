@@ -36,13 +36,11 @@ const exploreData = [
 ];
 ---
 
-<div class="w-full xl:w-3/4 xl:mt-non2 mt-0 mx-auto sticky bg-white rounded-4lg shadow-2xl py-8 px-9">
-    <div class="flex block gap-4">
+<div class="w-full xl:w-3/4 xl:mt-non2 mt-2 text-sm mx-auto sticky bg-white rounded-4lg shadow-2xl py-8 px-9">
+    <div class="flex block gap-4 pt-7 pl-7 pe-3">
         <div class="pb-8 text-titlexl font-bold">Explore EFL Global</div>
     </div>
-    <div
-        class="flex gap-4 px-8"
-    >
+    <div class="flex gap-4 py-7 px-7">
         {
             exploreData.map((item) => {
                 return <ExploreItem data={item} />;
