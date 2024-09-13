@@ -1,4 +1,4 @@
-export default function ExploreItem(data) {
+export default function NewsItem(data) {
     console.log(data)
     return (
         <div class="field__item">
@@ -7,13 +7,13 @@ export default function ExploreItem(data) {
                     <div>
                         <article>
                             <div>
-                                <div>
+                                <div class="field__item">
                                     <img
                                         loading="lazy"
                                         src={data.data.image}
-                                        width="124"
-                                        height="100"
-                                        class="mx-auto my-3"
+                                        width="328"
+                                        height="184"
+                                        class="h-auto w-full object-cover"
                                         alt={data.data.title}
                                     />
                                 </div>

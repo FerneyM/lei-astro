@@ -4,10 +4,10 @@ export default {
 	theme: {
 		extend: {
 			margin:{
-				non2: '-2.5rem'
+				non2: '-3.5rem'
 			},
 			borderRadius: {
-				'4lg': '0.25rem'
+				'4lg': '.25rem'
 			},
 			fontSize: {
 				'titlexl': '1.75rem'

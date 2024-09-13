@@ -1,0 +1,67 @@
+---
+import "../../css/infocards.css";
+import NewsItem from "./NewsItem";
+
+const exploreData = [
+    {
+        title: "Gulf Air Celebrates 40 Years of Operations in Bangladesh",
+        content:
+            "Gulf Air marked 40 years in Bangladesh with a grand ceremony on July 1. Country Manager Isa Shah and Airport Manager Malek Hasan expressed gratitude to partners and awarded top agents. The event featured cultural performances and a grand dinner.",
+        image: "/images/gulf_air_award.png",
+        published: "July 30, 2024",
+        category: "Award",
+    },
+    {
+        title: "Gulf Air Celebrates 40 Years of Operations in Bangladesh",
+        content:
+            "Gulf Air marked 40 years in Bangladesh with a grand ceremony on July 1. Country Manager Isa Shah and Airport Manager Malek Hasan expressed gratitude to partners and awarded top agents. The event featured cultural performances and a grand dinner.",
+        image: "/images/gulf_air_award.png",
+        published: "July 30, 2024",
+        category: "Award",
+    },
+    {
+        title: "Gulf Air Celebrates 40 Years of Operations in Bangladesh",
+        content:
+            "Gulf Air marked 40 years in Bangladesh with a grand ceremony on July 1. Country Manager Isa Shah and Airport Manager Malek Hasan expressed gratitude to partners and awarded top agents. The event featured cultural performances and a grand dinner.",
+        image: "/images/gulf_air_award.png",
+        published: "July 30, 2024",
+        category: "Award",
+    },
+    {
+        title: "Gulf Air Celebrates 40 Years of Operations in Bangladesh",
+        content:
+            "Gulf Air marked 40 years in Bangladesh with a grand ceremony on July 1. Country Manager Isa Shah and Airport Manager Malek Hasan expressed gratitude to partners and awarded top agents. The event featured cultural performances and a grand dinner.",
+        image: "/images/gulf_air_award.png",
+        published: "July 30, 2024",
+        category: "Award",
+    },
+    {
+        title: "Gulf Air Celebrates 40 Years of Operations in Bangladesh",
+        content:
+            "Gulf Air marked 40 years in Bangladesh with a grand ceremony on July 1. Country Manager Isa Shah and Airport Manager Malek Hasan expressed gratitude to partners and awarded top agents. The event featured cultural performances and a grand dinner.",
+        image: "/images/gulf_air_award.png",
+        published: "July 30, 2024",
+        category: "Award",
+    },
+];
+---
+
+<div class="w-full xl:w-3/4 mt-8 mx-auto bg-white py-9">
+    <div class="flex block gap-4 items-center pb-8">
+        <div>
+            <p class="text-titlexl font-bold">Latest News </p>
+        </div>
+        <div>
+            <a class="underline underline-offset-4 text-blue-300 font-bold" href="news.html">View All</a>
+        </div>
+    </div>
+    <div
+        class="flex gap-7 grid-cols-4 grid"
+    >
+        {
+            exploreData.map((item) => {
+                return <NewsItem data={item} />;
+            })
+        }
+    </div>
+</div>
